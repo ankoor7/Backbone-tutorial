@@ -3,7 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Hello World in Backbone.js</title>
+  <title>To-do App in Backbone.js</title>
+
+  <!-- ========= -->
+  <!--    CSS    -->
+  <!-- ========= -->
+  <style type="text/css">
+    #todoapp ul {
+      list-style-type: none; /* Hides bullet points from todo list */
+    }
+    #todo-list input.edit {
+      display: none; /* Hides input box*/
+    }
+    #todo-list .editing label {
+      display: none; /* Hides label text when .editing*/
+    }
+    #todo-list .editing input.edit {
+      display: inline; /* Shows input text box when .editing*/
+    }
+  </style>
 </head>
 <body>
   <!-- ========= -->
